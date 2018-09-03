@@ -7,7 +7,28 @@ mathematical functions.
 Uses 'MATLAB' function names where appropriate to simplify porting.
 
 The [pracma Manual](http://htmlpreview.github.io/?https://github.com/hwborchers/pracma-manual/blob/master/index.html)
-has been generated with the *pkgdown* package.
+has been generated from the help pages of *pracma* with the help of 
+the *pkgdown*.
+
+
+## NEWS in 2018
+
+- Si(), Ci() sine and cosine integral functions added.
+- Added dot notation for brent(), bisect(), newton(), halley(), and 
+  ridders() on request of John Nash for the histoRicalg project.
+
+- shubert() implements one-dimensional Shubert-Piyavskii method.
+- fminsearch() and anms() stop for one-dimensional minimization.
+
+- bsxfun() now uses sweep() for matrices in search of higher speed.
+- direct1d() removed because slow and not effective.
+
+- poisson2disk() approximate Poisson disk distribution
+- Corrected small bug in findpeaks(), reported by Mike Badescu.
+
+
+## DESCRIPTION File
+
 ```
 Package: pracma
 Type: Package
@@ -29,3 +50,4 @@ License: GPL (>= 3)
 ByteCompile: true
 LazyData: yes
 ```
+
