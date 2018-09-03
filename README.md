@@ -1,4 +1,4 @@
-# R Package pracma
+# R Package pracma Manual
 
 The *pracma* packege provides a large number of functions from 
 numerical analysis and linear algebra, numerical optimization, 
@@ -14,15 +14,12 @@ the *pkgdown*.
 ## NEWS in 2018
 
 - Si(), Ci() sine and cosine integral functions added.
-- Added dot notation for brent(), bisect(), newton(), halley(), and 
-  ridders() on request of John Nash for the histoRicalg project.
-
+- Added dot notation for brent(), bisect(), newton(), halley(), and  
+  and ridders() on request of John Nash for the histoRicalg project.
 - shubert() implements one-dimensional Shubert-Piyavskii method.
 - fminsearch() and anms() stop for one-dimensional minimization.
-
 - bsxfun() now uses sweep() for matrices in search of higher speed.
 - direct1d() removed because slow and not effective.
-
 - poisson2disk() approximate Poisson disk distribution
 - Corrected small bug in findpeaks(), reported by Mike Badescu.
 
